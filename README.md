@@ -130,7 +130,17 @@ A valid connection to a database deployment in MongoDB is required. Connection d
 
 ### npm packages
 
+To install needed packages, execute the command ```npm install``` in terminal while in folder *mlbstats-api* & *stats-application-server*. 
+
+#### For mlbstats-api
+
+- superagent v7.1.3
+
+#### For stats-application-server
+
 - cors v2.8.5
 - express v4.18.1
 - mongodb v4.5.0
+- mlbstats-api v1.0.2 (included in ```../mlbstats-api```)
 - nodemon v2.0.16
+
