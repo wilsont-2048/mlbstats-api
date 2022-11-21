@@ -1,0 +1,14 @@
+{
+  "name": "mlbstats-api",
+  "version": "1.0.2",
+  "description": "a module to interact with the mlb stats api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wilson Tobar",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^7.1.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "stats-application-server",
+  "version": "1.0.0",
+  "description": "a stats server app to interact with a mlb stats api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Wilson Tobar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mlbstats-api": "file:../mlbstats-api",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "keywords": []
+}
