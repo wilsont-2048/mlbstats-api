@@ -12,7 +12,7 @@ Execute the following command in terminal while inside the *stats-application-se
 
 ## How-To-Use
 
-The application can be accessed at ```http://localhost:8888```.
+The application can be accessed at ```http://localhost:8888```. POST and GET requests can be done using an API platform such as Postman.
 
 ### Search for active player
 Simple search for active player by name can be done by performing a GET request at ```http://localhost:8888/search/player``` using a JSON object with keyword *name*.
